@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left_side">
+        <div class="profile_text">
+          <div class="img_bx">
+            <img src="profile.jpg" alt="profile" />
+          </div>
+
+          <h2>Vinicius de Camargo Fantin <span>Developer</span></h2>
+        </div>
+
+        <div class="contact_info">
+          <h3 class="title">Contact Information</h3>
+          <ul>
+            <li>
+              <span class="icon"><i class="fa fa-phone"></i></span>
+              <span class="text">(49) 9 9152-2550</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-envelope-o"></i></span>
+              <span class="text">vinifantin302@gmail.com</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-linkedin-square"></i></span>
+              <a
+                href="https://www.linkedin.com/in/vinicius-de-camargo-fantin-23b90a260"
+                target="_blank"
+              >
+                <span class="text"
+                  >linkedin.com/in/vinicius-de-camargo-fantin-23b90a260</span
+                >
+              </a>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-github"></i></span>
+              <a href="https://github.com/ViniciusFantin" target="_blank">
+                <span class="text">github.com/ViniciusFantin</span>
+              </a>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-map-marker"></i></span>
+              <span class="text">Santa Catarina, Brazil</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact_info education">
+          <h3 class="title">Education</h3>
+          <ul>
+            <li>
+              <h5>2023 - 2026</h5>
+              <h4>Computer Science</h4>
+              <h4>UNOESC</h4>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact_info language">
+          <h3 class="title">Languages</h3>
+          <ul>
+            <li>
+              <span class="text">Portuguese</span>
+              <span class="percent"><div style="width: 100%"></div></span>
+            </li>
+            <li>
+              <span class="text">English</span>
+              <span class="percent"><div style="width: 90%"></div></span>
+            </li>
+            <li>
+              <span class="text">Spanish</span>
+              <span class="percent"><div style="width: 50%"></div></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right_side">
+        <div class="light-dark-mode">
+          <div class="trilho" id="trilho">
+            <div class="indicador">
+              <i id="icone" class="bi bi-brightness-high-fill"></i>
+            </div>
+          </div>
+        </div>
+
+        <script src="script.js"></script>
+
+        <!-- ABOUT -->
+        <div class="accordion">
+          <button class="accordion-header" aria-expanded="true">
+            <h2 class="title2">About</h2>
+            <i class="bi bi-chevron-down chevron"></i>
+          </button>
+          <div class="accordion-panel">
+            <p>
+              I am passionate about <b>software development</b>, focusing on
+              modern and efficient web applications. I have solid experience
+              with JavaScript and work with React to build dynamic, organized,
+              and high-performance interfaces. <br /><br />
+              I also have knowledge of Python, applying it in different
+              development contexts, and experience with relational databases
+              such as MySQL, including data modeling and manipulation.
+              <br /><br />
+              I am constantly seeking to improve my technical skills, keeping up
+              with best practices, new tools, and market trends. I learn
+              quickly, enjoy teamwork, and am always motivated to take on new
+              challenges in web development.
+            </p>
+          </div>
+        </div>
+
+        <!-- EXPERIENCE -->
+        <div class="accordion">
+          <button class="accordion-header" aria-expanded="true">
+            <h2 class="title2">Experience</h2>
+            <i class="bi bi-chevron-down chevron"></i>
+          </button>
+          <div class="accordion-panel">
+            <div class="box">
+              <div class="year_company">
+                <h5>2024 - 2025</h5>
+                <h5>City Hall of Videira - SC</h5>
+              </div>
+              <div class="text">
+                <h4>IT Technician</h4>
+                <p>Technical support for systems and networks</p>
+              </div>
+            </div>
+
+            <br />
+
+            <div class="box">
+              <div class="year_company">
+                <h5>2025 - Present</h5>
+                <h5>MultiFoco</h5>
+              </div>
+              <div class="text">
+                <h4>Web Developer & User Support</h4>
+                <p>
+                  Web development using React and TypeScript, working with APIs
+                  and libraries such as Material UI and Zustand, as well as
+                  providing user support for the platform.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="accordion">
+          <button class="accordion-header" aria-expanded="true">
+            <h2 class="title2">Professional Skills</h2>
+            <i class="bi bi-chevron-down chevron"></i>
+          </button>
+
+          <div class="accordion-panel">
+            <div class="skills">
+              <div class="box">
+                <h4>React</h4>
+                <div class="percent"><div style="width: 90%"></div></div>
+              </div>
+              <div class="box">
+                <h4>Python</h4>
+                <div class="percent"><div style="width: 60%"></div></div>
+              </div>
+              <div class="box">
+                <h4>TypeScript</h4>
+                <div class="percent"><div style="width: 80%"></div></div>
+              </div>
+              <div class="box">
+                <h4>MySQL</h4>
+                <div class="percent"><div style="width: 70%"></div></div>
+              </div>
+              <div class="box">
+                <h4>PHP</h4>
+                <div class="percent"><div style="width: 70%"></div></div>
+              </div>
+              <div class="box">
+                <h4>JavaScript</h4>
+                <div class="percent"><div style="width: 80%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
