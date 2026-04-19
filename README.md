@@ -1,9 +1,9 @@
-# Currículo em HTML/CSS/JS
+# Curriculum HTML/CSS/JS
 
-Página de currículo simples e responsiva feita com HTML5, CSS3 e JavaScript puro.  
-Inclui modo claro/escuro e seções colapsáveis (acordeão) para **Sobre**, **Experiência** e **Habilidades**.
+Simple and responsive resume page built with HTML5, CSS3, and vanilla JavaScript.
+Includes light/dark mode and collapsible sections (accordion) for About, Experience, and Skills.
 
-Dependências via CDN:
+Dependencies via CDN:
 - Google Fonts (Poppins)
 - Font Awesome 4.7 (ícones)
 - Bootstrap Icons (ícone do chevron e do tema)
